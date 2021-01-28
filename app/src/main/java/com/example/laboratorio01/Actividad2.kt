@@ -15,9 +15,9 @@ class Actividad2 : AppCompatActivity() {
 
         if(bundle != null){
             val valueA: String = bundle.getString("ValueA", "")
-            Toast.makeText(this, ValueA, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, valueA, Toast.LENGTH_SHORT).show()
             val txtValue: TextView = findViewById(R.id.txtValue)
-            txtValue.text = ValueA
+            txtValue.text = valueA
         }
     }
 }
