@@ -1,7 +1,9 @@
 package com.example.laboratorio01
 
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import android.widget.Toast
 
 class Actividad2 : AppCompatActivity() {
@@ -13,7 +15,9 @@ class Actividad2 : AppCompatActivity() {
 
         if(bundle != null){
             val valueA: String = bundle.getString("ValueA", "")
-            Toast.makeText(this, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, ValueA, Toast.LENGTH_SHORT).show()
+            val txtValue: TextView = findViewById(R.id.txtValue)
+            txtValue.text = ValueA
         }
     }
 }
