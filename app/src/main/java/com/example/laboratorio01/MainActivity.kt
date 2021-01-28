@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         btnOpen.setOnClickListener{
             Log.e("LOG", "OnClick")
             val intent = Intent(this, Actividad2::class.java)
+            intent.putExtra("ValueA", "Valor desde Actividad 1")
             startActivity(intent)
         }
     }
