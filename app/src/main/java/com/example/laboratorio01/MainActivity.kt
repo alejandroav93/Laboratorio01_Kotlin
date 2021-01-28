@@ -1,7 +1,9 @@
 package com.example.laboratorio01
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 
@@ -12,6 +14,12 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "onCreate", Toast.LENGTH_SHORT).show()
         val btnOpen: Button = findViewById(R.id.btnOpen)
+
+        btnOpen.setOnClickListener{
+            Log.e("LOG", "OnClick")
+            val intent = Intent(this, Actividad2::class.java)
+            startActivity(intent)
+        }
     }
     override fun onStart() {
         super.onStart()
