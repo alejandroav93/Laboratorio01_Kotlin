@@ -8,6 +8,7 @@
     tools:context=".Actividad2">
 
     <TextView
+        android:id="@+id/pantalla"
         android:layout_width="match_parent"
         android:textSize="120sp"
         android:text="0"
@@ -15,6 +16,16 @@
         android:layout_gravity="bottom|right"
         android:textColor="#000000"
          />
+    <TextView
+    android:id="@+id/pantalla1"
+    android:layout_width="match_parent"
+    android:textSize="30sp"
+        android:textAlignment="textEnd"
+
+    android:layout_height="40sp"
+    android:layout_gravity="bottom|right"
+    android:textColor="#B8B8B8"
+        tools:ignore="RtlCompat" />
 
 
     <LinearLayout
@@ -22,7 +33,7 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/tvUno"
+            android:id="@+id/uno"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -130,5 +141,15 @@
             android:layout_weight="1"
             android:text="=" />
     </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/borrar"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="AC" />
+    </LinearLayout>
 </LinearLayout>
+
