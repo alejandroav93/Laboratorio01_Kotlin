@@ -18,52 +18,55 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientarion="horizontal">
+        android:layout_height="wrap_content">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="7"/>
+            android:text="7"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="8"/>
+            android:text="8"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="9"/>
+            android:text="9"
+            tools:ignore="ButtonStyle" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientarion="horizontal">
+        android:layout_height="wrap_content">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="4"/>
+            android:text="4"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="5"/>
+            android:text="5"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="6"/>
+            android:text="6"
+            tools:ignore="ButtonStyle" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientarion="horizontal">
+        android:layout_height="wrap_content">
 
         <Button
             android:layout_width="0dp"
@@ -83,20 +86,21 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientarion="horizontal">
+        android:layout_height="wrap_content">
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="0" />
+            android:text="0"
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+"/>
+            android:text="+"
+            tools:ignore="ButtonStyle" />
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -105,8 +109,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientarion="horizontal">
+        android:layout_height="wrap_content">
 
         <Button
             android:layout_width="0dp"
